@@ -47,13 +47,12 @@ class Header extends React.Component {
                         <Link className="navbar-brand" to="/">
                             <img src="/docs/4.3/assets/brand/bootstrap-solid.svg" width="30" height="30" className="d-inline-block align-top"
                                 alt="" />
-                            BIT SHOW
+                            MovieGo
                     </Link>
                         <form className="form-inline my-2 my-lg-0">
                             <input className="form-control mr-sm-2" onFocus={this.onInputFocus} onBlur={this.onInputFocusOut}type="search" placeholder="Search" aria-label="Search" onChange={this.setSearchValue} value={this.state.searchValue} />
                             <img src="/docs/4.3/assets/brand/bootstrap-solid.svg" width="30" height="30" className="d-inline-block align-top"
                                 alt="" />
-                            {/* <button className="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button> */}
                         </form>
                     </nav>
                 </header>
